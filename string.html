@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>String method and property</h1>
+    <script>
+        var s1="welcome to Java Script 'JS'"
+        document.writeln("s1=",s1,"<br>")
+        document.writeln("lenght of s1=",s1.length,"<br>")
+        document.writeln("lenght of s1=",s1.length,"<br>")
+        document.writeln("now type of s1 ",typeof s1,"<br>")
+        var s2=new String("Welcome","<br>")
+        document.writeln("s2= ",s2,"<br>")
+        document.writeln("type of s2=",typeof s2,"<br>")
+        document.writeln("indexOf=",s1.indexOf('z'),"<br>")/*not found */
+        document.writeln("indexOf=",s1.indexOf('w'),"<br>")
+       
+        document.writeln("indexOf=",s1.indexOf('e'),"<br>")/*first occurance of e*/
+        document.writeln("lastIndexOf=",s1.lastIndexOf('e'),"<br>")/* last occurance of e*/
+        document.writeln("indexOf=",s1.indexOf('e'),"<br>")
+          document.writeln("search=",s1.search('e'),"<br>")
+        document.writeln("replace=",s1.replace("welcome","learn"),"<br>")
+        s3=" demonstration of string "
+        document.writeln("length of s3=",s3.length,"<br>")
+        s4=s3.trim()
+        document.writeln("length of s3 after triming= ",s4.length,"<br>")/*it removes left and right space*/
+        document.writeln("toUppercase=",s1.toUpperCase(),"<br>")
+        document.writeln("toLowercase=",s1.toLowerCase(),"<br>")
+        s5="Hello "
+        document.writeln("concatnate = ",s5.concat(s1),"<br>")
+
+</script>
+</body>
+</html>
